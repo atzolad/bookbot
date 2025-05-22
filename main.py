@@ -25,8 +25,6 @@ def print_report(book_path, num_words, sorted):
     print("--------- Character Count -------")
     for c in sorted:
         if c['char'].isalpha():
-            character = c['char']
-            number = c['num']
             print(f"{c['char']}: {c['num']}")
     print("============= END ===============")    
 
